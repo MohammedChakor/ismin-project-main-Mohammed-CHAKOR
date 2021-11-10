@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/hommageFragment">
+
+    <fragment
+        android:id="@+id/hommageFragment"
+        android:name="com.ismin.csproject.HommageFragment"
+        android:label="fragment_hommage"
+        tools:layout="@layout/fragment_hommage" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.ismin.csproject.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/infosFragment"
+        android:name="com.ismin.csproject.InfosFragment"
+        android:label="fragment_infos"
+        tools:layout="@layout/fragment_infos" />
+</navigation>
